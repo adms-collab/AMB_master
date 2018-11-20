@@ -1,0 +1,1 @@
+var xmpcfg = {access: { accessToken: '63a53d4a-e9ee-4288-b528-227d5412a07f_1098f4e6-17ea-43a4-b25c-78513b331a24_881fa8845ce24bc4983eb037d7146411', url: 'https://startprotectingyourfuture.com/XMPieXMPL_REST_API', circleProjectID:'1098f4e6-17ea-43a4-b25c-78513b331a24', circleProjectName: 'AMB_Master' }};

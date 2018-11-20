@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8" ng-app="xmp.app"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9" ng-app="xmp.app"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" ng-app="xmp.app">
+<!--<![endif]-->
+<head>
+	<title>Metlife</title>
+
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Web Fonts -->
+	<link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>
+
+	<!-- Icon -->
+	<link rel="apple-touch-icon" href="https://startprotectingyourfuture.com/AMBMaster/img/favicon.ico">
+	<link rel="apple-touch-icon-precomposed" href="https://startprotectingyourfuture.com/AMBMaster/img/favicon.ico">
+	<link rel="shortcut icon" href="https://startprotectingyourfuture.com/AMBMaster/img/favicon.ico" type="image/x-icon">
+
+	<!-- CSS Global Compulsory -->
+	<link rel="stylesheet" href="https://startprotectingyourfuture.com/assets/plugins/bootstrap/css/bootstrap.min.css">
+	<!--<link rel="stylesheet" href="https://startprotectingyourfuture.com/assets/css/style.css">-->
+
+	<!-- jQuery UI CSS -->
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+
+	<!-- CSS Header and Footer -->
+	<link rel="stylesheet" href="https://startprotectingyourfuture.com/assets/css/headers/header-default.css">
+	<link rel="stylesheet" href="https://startprotectingyourfuture.com/assets/css/footers/footer-v1.css">
+
+	<!-- CSS Implementing Plugins -->
+	<link rel="stylesheet" href="https://startprotectingyourfuture.com/assets/plugins/animate.css">
+	<link rel="stylesheet" href="https://startprotectingyourfuture.com/assets/plugins/line-icons/line-icons.css">
+	<link rel="stylesheet" href="https://startprotectingyourfuture.com/assets/plugins/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://startprotectingyourfuture.com/assets/plugins/sky-forms-pro/skyforms/css/sky-forms_60791.css">
+	<link rel="stylesheet" href="https://startprotectingyourfuture.com/assets/plugins/sky-forms-pro/skyforms/custom/custom-sky-forms.css">
+	<!--[if lt IE 9]><link rel="stylesheet" href="https://startprotectingyourfuture.com/assets/plugins/sky-forms-pro/skyforms/css/sky-forms-ie8.css"><![endif]-->
+
+	<!-- CSS Theme -->
+	<link rel="stylesheet" href="https://startprotectingyourfuture.com/assets/css/theme-colors/dark-blue.css" id="style_color">
+
+	<!-- CSS Customization -->
+	<link rel="stylesheet" href="css/global.css">
+	<link rel="stylesheet" href="css/custom.css">
+	
+	<!-- XMPie CSS library -->
+	<link href="deps/xmp/css/xmp.css" rel="stylesheet" media="screen">
+
+	<!-- XMPie XMPL library -->
+	<script src="deps/jquery/jquery-1.10.2.min.js"></script>
+	<script src="deps/xmp/js/xmp.min.js"></script>
+	<script src="xmpcfg.js"></script>
+</head>
+
+<body ng-controller="GlobalController">
+	<div ng-controller="XMPAnonymousPage" xmp-cloak>
+		<div class="global-header" ng-include="'templates/header.html'"></div>
+
+		<div class="subnav hidden-xs" ng-include="'templates/navbar_desktop.html'"></div>
+
+		<div class="subnav-min hidden-sm hidden-md hidden-lg" ng-include="'templates/navbar_mobile.html'"></div>
+
+		<div id="maincontent">
+			<div class="container bg-gray-1st mobile-share-btn">
+				<div class="row wrapper page-title">
+					<h1 class="page-title__heading"><span class="variable-value">{{boe_val}}</span> Overhead Expense</h1>
+					<div class="page-title__subtitle">
+						Help keep your business running by paying your share of your firm's overhead expenses if you are unable to work due to a covered disability.
+					</div> 
+				</div>
+			</div>
+		</div>
+
+		<div class="content-parsys parsys">
+			<div class="product-card-tile abstract-product-card double single base parbase section">
+				<div class="container" data-comp-id="product-card-tile"> 
+					<div class="row wrapper in_view on"> 
+						<div class="product-card"> 
+							<div class="title text-center product-card__img bg-brand-1st white">
+								<h1 class="page-title__heading" style="font-size: 22px; line-height: 26px;"><span class="variable-value">{{boe_tile1_title}}</span> <span class="variable-value">{{boe_val}}</span> Overhead Expense Insurance</h1>
+							</div>
+							<div class="content"> 
+								<div class="content-body">
+									<p><span class="variable-value"><strong>{{boe_val}}</strong></span> <strong>overhead expense insurance can help provide you with a financial safety net for the company you've worked so hard to build.</strong></p>
+									<p><strong>Learn more about this plan &mdash; view <a href="pdf/BOE_SI_FAQ.pdf" target="_blank">FAQ</a> and <a href="pdf/BOE_SI_PLAN.pdf" target="_blank">Plan Summary</a>.</strong></p>
+
+									<div class="border-top">
+										<div class="accordion__title collapsed" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+											<span class="brand-1st">Find your rate</span>
+											<svg class="icon icon-plus accordion__title__icon pull-right">
+												<svg id="icon-plus" viewBox="0 0 32 32" width="100%" height="100%">
+													<title>plus</title>
+													<path class="path1" d="M12.469 19.604h-12.469v-7.047h12.469v-12.556h7.061v12.556h12.469v7.047h-12.469v12.396h-7.061z"></path>
+												</svg>
+											</svg>
+											<svg class="icon icon-minus accordion__title__icon pull-right">
+												<svg id="icon-minus" viewBox="0 0 32 32" width="100%" height="100%">
+													<title>minus</title>
+													<path class="path1" d="M0 13.333h32v5.333h-32v-5.333z"></path>
+												</svg>
+											</svg>
+										</div>
+										<div class="accordion__content collapse" id="collapse1">
+											<p>Enter your information below to get your initial <span class="variable-value">{{boe_tile1_freq}}</span> rate.</p>
+											<p><i>(All fields required)</i></p>
+											<br/>
+											<div class="row form-row">
+												<div class="col-xs-12 col-sm-6">
+													<div class="form-user-grp">
+														<div class="select_wrapper cta_header_quote_type_of_insurance form-icon-wrapper">
+															<svg class="icon">
+																<svg id="icon-select-arrows" viewBox="0 0 32 32" width="100%" height="100%">
+																	<title>select-arrows</title>
+																	<path class="path1" d="M7.704 10.827h16l-8-10.827z"></path>
+																	<path class="path2" d="M7.704 21.175h16l-8 10.825z"></path>
+																</svg>
+															</svg>
+															<select aria-required="false" role="combobox" class="insurance-type product__selector form-user-ctrl user-select">
+																<option value="">Age</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="row form-row">
+												<div class="col-xs-12 col-sm-6">
+													<div class="form-user-grp">
+														<div class="select_wrapper cta_header_quote_type_of_insurance form-icon-wrapper">
+															<svg class="icon">
+																<svg id="icon-select-arrows" viewBox="0 0 32 32" width="100%" height="100%">
+																	<title>select-arrows</title>
+																	<path class="path1" d="M7.704 10.827h16l-8-10.827z"></path>
+																	<path class="path2" d="M7.704 21.175h16l-8 10.825z"></path>
+																</svg>
+															</svg>
+															<select aria-required="false" role="combobox" class="insurance-type product__selector form-user-ctrl user-select">
+																<option value="">Gender</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="row form-row">
+												<div class="col-xs-12 col-sm-6">
+													<div class="form-user-grp">
+														<div class="select_wrapper cta_header_quote_type_of_insurance form-icon-wrapper">
+															<svg class="icon">
+																<svg id="icon-select-arrows" viewBox="0 0 32 32" width="100%" height="100%">
+																	<title>select-arrows</title>
+																	<path class="path1" d="M7.704 10.827h16l-8-10.827z"></path>
+																	<path class="path2" d="M7.704 21.175h16l-8 10.825z"></path>
+																</svg>
+															</svg>
+															<select aria-required="false" role="combobox" class="insurance-type product__selector form-user-ctrl user-select">
+																<option value="">Benefit Period</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="row form-row">
+												<div class="col-xs-12 col-sm-6">
+													<div class="form-user-grp">
+														<div class="select_wrapper cta_header_quote_type_of_insurance form-icon-wrapper">
+															<svg class="icon">
+																<svg id="icon-select-arrows" viewBox="0 0 32 32" width="100%" height="100%">
+																	<title>select-arrows</title>
+																	<path class="path1" d="M7.704 10.827h16l-8-10.827z"></path>
+																	<path class="path2" d="M7.704 21.175h16l-8 10.825z"></path>
+																</svg>
+															</svg>
+															<select aria-required="false" role="combobox" class="insurance-type product__selector form-user-ctrl user-select">
+																<option value="">Waiting Period</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="row form-row">
+												<div class="col-xs-12 col-sm-6">
+													<div class="form-user-grp">
+														<div class="select_wrapper cta_header_quote_type_of_insurance form-icon-wrapper">
+															<svg class="icon">
+																<svg id="icon-select-arrows" viewBox="0 0 32 32" width="100%" height="100%">
+																	<title>select-arrows</title>
+																	<path class="path1" d="M7.704 10.827h16l-8-10.827z"></path>
+																	<path class="path2" d="M7.704 21.175h16l-8 10.825z"></path>
+																</svg>
+															</svg>
+															<select aria-required="false" role="combobox" class="insurance-type product__selector form-user-ctrl user-select">
+																<option value="">Coverage Amount</option>
+															</select>
+														</div>
+													</div>
+												</div>
+												<div class="hidden-xs col-sm-1">&nbsp;</div>
+												<div class="col-xs-12 col-sm-5">
+													<div class="form-user-grp">
+														<a class="btn-brand-6th" href="" target="_blank" role="button">See Your Quote</a> 
+													</div>
+												</div>
+											</div>
+											<br/>
+											<p>Premium amounts for other payment frequencies: <span class="variable-value">{{boe_tile1_freq_oth}}</span> = $<span class="variable-value">{{boe_tile1_freq_oth_val}}</span></p>
+											<p>Your premium is based on your age<span class="variable-value">{{boe_tile1_premium_text1}}</span> when coverage begins<span class="variable-value">{{boe_tile1_premium_text2}}</span>.</p>
+											<p>PLEASE NOTE: The plan is available in all states except <span class="variable-value">{{boe_tile1_excluded_states}}</span></p>
+										</div>
+									</div>
+
+								</div>
+							</div> 
+							<div class="action text-center"> 
+								<a class="btn-brand-2nd" href="" target="_blank" role="button">Apply Now</a> 
+							</div> 
+						</div> 
+					</div> 
+				</div> 
+			</div>
+
+			<div class="product-card-tile abstract-product-card double single base parbase section">
+				<div class="container" data-comp-id="product-card-tile"> 
+					<div class="row wrapper in_view on"> 
+						<div class="product-card"> 
+							<div class="title text-center product-card__img bg-brand-1st white">
+								<h1 class="page-title__heading" style="font-size: 22px; line-height: 26px;"><span class="variable-value">{{boe_tile2_title}}</span> <span class="variable-value">{{boe_val}}</span> Overhead Expense Insurance</h1>
+							</div>
+							<div class="content"> 
+								<div class="content-body">
+									<p><strong>It's a simplified way to apply for <span class="variable-value" style="font-weight: bold; text-transform: lowercase;">{{boe_val}}</span> overhead expense coverage. Answer a few medical questions, and if no additional information is needed, you're all done with the application process.<sup>1</sup></strong></p>
+									<p><strong>Learn more about this plan &mdash; view <a href="pdf/BOE_ONE_FAQ.pdf" target="_blank">FAQ</a> and <a href="pdf/BOE_ONE_PLAN.pdf" target="_blank">Plan Summary</a>.</strong></p>
+
+									<div class="border-top">
+										<div class="accordion__title collapsed" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+											<span class="brand-1st">Find your rate</span>
+											<svg class="icon icon-plus accordion__title__icon pull-right">
+												<svg id="icon-plus" viewBox="0 0 32 32" width="100%" height="100%">
+													<title>plus</title>
+													<path class="path1" d="M12.469 19.604h-12.469v-7.047h12.469v-12.556h7.061v12.556h12.469v7.047h-12.469v12.396h-7.061z"></path>
+												</svg>
+											</svg>
+											<svg class="icon icon-minus accordion__title__icon pull-right">
+												<svg id="icon-minus" viewBox="0 0 32 32" width="100%" height="100%">
+													<title>minus</title>
+													<path class="path1" d="M0 13.333h32v5.333h-32v-5.333z"></path>
+												</svg>
+											</svg>
+										</div>
+										<div class="accordion__content collapse" id="collapse2">
+											<p>Enter your information below to get your initial <span class="variable-value">{{boe_tile2_freq}}</span> rate.</p>
+											<p><i>(All fields required)</i></p>
+											<br/>
+											<div class="row form-row">
+												<div class="col-xs-12 col-sm-6">
+													<div class="form-user-grp">
+														<div class="select_wrapper cta_header_quote_type_of_insurance form-icon-wrapper">
+															<svg class="icon">
+																<svg id="icon-select-arrows" viewBox="0 0 32 32" width="100%" height="100%">
+																	<title>select-arrows</title>
+																	<path class="path1" d="M7.704 10.827h16l-8-10.827z"></path>
+																	<path class="path2" d="M7.704 21.175h16l-8 10.825z"></path>
+																</svg>
+															</svg>
+															<select aria-required="false" role="combobox" class="insurance-type product__selector form-user-ctrl user-select">
+																<option value="">Age</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="row form-row">
+												<div class="col-xs-12 col-sm-6">
+													<div class="form-user-grp">
+														<div class="select_wrapper cta_header_quote_type_of_insurance form-icon-wrapper">
+															<svg class="icon">
+																<svg id="icon-select-arrows" viewBox="0 0 32 32" width="100%" height="100%">
+																	<title>select-arrows</title>
+																	<path class="path1" d="M7.704 10.827h16l-8-10.827z"></path>
+																	<path class="path2" d="M7.704 21.175h16l-8 10.825z"></path>
+																</svg>
+															</svg>
+															<select aria-required="false" role="combobox" class="insurance-type product__selector form-user-ctrl user-select">
+																<option value="">Gender</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="row form-row">
+												<div class="col-xs-12 col-sm-6">
+													<div class="form-user-grp">
+														<div class="select_wrapper cta_header_quote_type_of_insurance form-icon-wrapper">
+															<svg class="icon">
+																<svg id="icon-select-arrows" viewBox="0 0 32 32" width="100%" height="100%">
+																	<title>select-arrows</title>
+																	<path class="path1" d="M7.704 10.827h16l-8-10.827z"></path>
+																	<path class="path2" d="M7.704 21.175h16l-8 10.825z"></path>
+																</svg>
+															</svg>
+															<select aria-required="false" role="combobox" class="insurance-type product__selector form-user-ctrl user-select">
+																<option value="">Benefit Period</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="row form-row">
+												<div class="col-xs-12 col-sm-6">
+													<div class="form-user-grp">
+														<div class="select_wrapper cta_header_quote_type_of_insurance form-icon-wrapper">
+															<svg class="icon">
+																<svg id="icon-select-arrows" viewBox="0 0 32 32" width="100%" height="100%">
+																	<title>select-arrows</title>
+																	<path class="path1" d="M7.704 10.827h16l-8-10.827z"></path>
+																	<path class="path2" d="M7.704 21.175h16l-8 10.825z"></path>
+																</svg>
+															</svg>
+															<select aria-required="false" role="combobox" class="insurance-type product__selector form-user-ctrl user-select">
+																<option value="">Waiting Period</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="row form-row">
+												<div class="col-xs-12 col-sm-6">
+													<div class="form-user-grp">
+														<div class="select_wrapper cta_header_quote_type_of_insurance form-icon-wrapper">
+															<svg class="icon">
+																<svg id="icon-select-arrows" viewBox="0 0 32 32" width="100%" height="100%">
+																	<title>select-arrows</title>
+																	<path class="path1" d="M7.704 10.827h16l-8-10.827z"></path>
+																	<path class="path2" d="M7.704 21.175h16l-8 10.825z"></path>
+																</svg>
+															</svg>
+															<select aria-required="false" role="combobox" class="insurance-type product__selector form-user-ctrl user-select">
+																<option value="">Coverage Amount</option>
+															</select>
+														</div>
+													</div>
+												</div>
+												<div class="hidden-xs col-sm-1">&nbsp;</div>
+												<div class="col-xs-12 col-sm-5">
+													<div class="form-user-grp">
+														<a class="btn-brand-6th" href="" target="_blank" role="button">See Your Quote</a> 
+													</div>
+												</div>
+											</div>
+											<br/>
+											<p>Premium amounts for other payment frequencies: <span class="variable-value">{{boe_tile2_freq_oth}}</span> = $<span class="variable-value">{{boe_tile2_freq_oth_val}}</span></p>
+											<p>Your premium is based on your age<span class="variable-value">{{boe_tile2_premium_text1}}</span> when coverage begins<span class="variable-value">{{boe_tile2_premium_text2}}</span>.</p>
+											<p>PLEASE NOTE: The plan is available in all states except <span class="variable-value">{{boe_tile2_excluded_states}}</span></p>
+										</div>
+									</div>
+
+								</div> 
+							</div> 
+							<div class="action text-center"> 
+								<a class="btn-brand-2nd table" href="https://www.metlife.com/individual/insurance/auto-insurance/auto-landing.html?ibp-adgroup=metlifequotetool&amp;promoid=D1259" target="_blank" role="button">Apply Now</a> 
+							</div> 
+						</div> 
+					</div> 
+				</div> 
+			</div>
+
+			<div class="product-card-tile abstract-product-card double single base parbase section">
+				<div class="container" data-comp-id="product-card-tile"> 
+					<div class="row wrapper in_view on"> 
+						<div class="product-card"> 
+							<div class="title text-center product-card__img bg-brand-1st white">
+								<h1 class="page-title__heading" style="font-size: 22px; line-height: 26px;"><span class="variable-value">{{boe_tile3_title}}</span> <span class="variable-value">{{boe_val}}</span> Overhead Expense Insurance</h1>
+							</div>
+							<div class="content"> 
+								<div class="content-body"> 
+									<p><strong>As a limited time offer for new members, receive guaranteed <span class="variable-value" style="font-weight: bold; text-transform: lowercase;">{{boe_val}}</span> overhead expense insurance coverage. No exams. No tests. Your acceptance is guaranteed.<sup>2</sup></strong></p>
+									<p><strong>Learn more about this plan &mdash; view <a href="pdf/BOE_GI_FAQ.pdf" target="_blank">FAQ</a> and <a href="pdf/BOE_GI_PLAN.pdf" target="_blank">Plan Summary</a>.</strong></p>
+
+									<div class="border-top">
+										<div class="accordion__title collapsed" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+											<span class="brand-1st">Find your rate</span>
+											<svg class="icon icon-plus accordion__title__icon pull-right">
+												<svg id="icon-plus" viewBox="0 0 32 32" width="100%" height="100%">
+													<title>plus</title>
+													<path class="path1" d="M12.469 19.604h-12.469v-7.047h12.469v-12.556h7.061v12.556h12.469v7.047h-12.469v12.396h-7.061z"></path>
+												</svg>
+											</svg>
+											<svg class="icon icon-minus accordion__title__icon pull-right">
+												<svg id="icon-minus" viewBox="0 0 32 32" width="100%" height="100%">
+													<title>minus</title>
+													<path class="path1" d="M0 13.333h32v5.333h-32v-5.333z"></path>
+												</svg>
+											</svg>
+										</div>
+										<div class="accordion__content collapse" id="collapse3">
+											<p>Enter your information below to get your initial <span class="variable-value">{{boe_tile3_freq}}</span> rate.</p>
+											<p><i>(All fields required)</i></p>
+											<br/>
+											<div class="row form-row">
+												<div class="col-xs-12 col-sm-6">
+													<div class="form-user-grp">
+														<div class="select_wrapper cta_header_quote_type_of_insurance form-icon-wrapper">
+															<svg class="icon">
+																<svg id="icon-select-arrows" viewBox="0 0 32 32" width="100%" height="100%">
+																	<title>select-arrows</title>
+																	<path class="path1" d="M7.704 10.827h16l-8-10.827z"></path>
+																	<path class="path2" d="M7.704 21.175h16l-8 10.825z"></path>
+																</svg>
+															</svg>
+															<select aria-required="false" role="combobox" class="insurance-type product__selector form-user-ctrl user-select">
+																<option value="">Age</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="row form-row">
+												<div class="col-xs-12 col-sm-6">
+													<div class="form-user-grp">
+														<div class="select_wrapper cta_header_quote_type_of_insurance form-icon-wrapper">
+															<svg class="icon">
+																<svg id="icon-select-arrows" viewBox="0 0 32 32" width="100%" height="100%">
+																	<title>select-arrows</title>
+																	<path class="path1" d="M7.704 10.827h16l-8-10.827z"></path>
+																	<path class="path2" d="M7.704 21.175h16l-8 10.825z"></path>
+																</svg>
+															</svg>
+															<select aria-required="false" role="combobox" class="insurance-type product__selector form-user-ctrl user-select">
+																<option value="">Gender</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="row form-row">
+												<div class="col-xs-12 col-sm-6">
+													<div class="form-user-grp">
+														<div class="select_wrapper cta_header_quote_type_of_insurance form-icon-wrapper">
+															<svg class="icon">
+																<svg id="icon-select-arrows" viewBox="0 0 32 32" width="100%" height="100%">
+																	<title>select-arrows</title>
+																	<path class="path1" d="M7.704 10.827h16l-8-10.827z"></path>
+																	<path class="path2" d="M7.704 21.175h16l-8 10.825z"></path>
+																</svg>
+															</svg>
+															<select aria-required="false" role="combobox" class="insurance-type product__selector form-user-ctrl user-select">
+																<option value="">Benefit Period</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="row form-row">
+												<div class="col-xs-12 col-sm-6">
+													<div class="form-user-grp">
+														<div class="select_wrapper cta_header_quote_type_of_insurance form-icon-wrapper">
+															<svg class="icon">
+																<svg id="icon-select-arrows" viewBox="0 0 32 32" width="100%" height="100%">
+																	<title>select-arrows</title>
+																	<path class="path1" d="M7.704 10.827h16l-8-10.827z"></path>
+																	<path class="path2" d="M7.704 21.175h16l-8 10.825z"></path>
+																</svg>
+															</svg>
+															<select aria-required="false" role="combobox" class="insurance-type product__selector form-user-ctrl user-select">
+																<option value="">Waiting Period</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="row form-row">
+												<div class="col-xs-12 col-sm-6">
+													<div class="form-user-grp">
+														<div class="select_wrapper cta_header_quote_type_of_insurance form-icon-wrapper">
+															<svg class="icon">
+																<svg id="icon-select-arrows" viewBox="0 0 32 32" width="100%" height="100%">
+																	<title>select-arrows</title>
+																	<path class="path1" d="M7.704 10.827h16l-8-10.827z"></path>
+																	<path class="path2" d="M7.704 21.175h16l-8 10.825z"></path>
+																</svg>
+															</svg>
+															<select aria-required="false" role="combobox" class="insurance-type product__selector form-user-ctrl user-select">
+																<option value="">Coverage Amount</option>
+															</select>
+														</div>
+													</div>
+												</div>
+												<div class="hidden-xs col-sm-1">&nbsp;</div>
+												<div class="col-xs-12 col-sm-5">
+													<div class="form-user-grp">
+														<a class="btn-brand-6th" href="" target="_blank" role="button">See Your Quote</a> 
+													</div>
+												</div>
+											</div>
+											<br/>
+											<p>Premium amounts for other payment frequencies: <span class="variable-value">{{boe_tile3_freq_oth}}</span> = $<span class="variable-value">{{boe_tile3_freq_oth_val}}</span></p>
+											<p>Your premium is based on your age<span class="variable-value">{{boe_tile3_premium_text1}}</span> when coverage begins<span class="variable-value">{{boe_tile3_premium_text2}}</span>.</p>
+											<p>PLEASE NOTE: The plan is available in all states except <span class="variable-value">{{boe_tile3_excluded_states}}</span></p>
+										</div>
+									</div>
+
+								</div> 
+							</div> 
+							<div class="action text-center"> 
+								<a class="btn-brand-2nd table" href="https://www.metlife.com/individual/insurance/auto-insurance/auto-landing.html?ibp-adgroup=metlifequotetool&amp;promoid=D1259" target="_blank" role="button">Apply Now</a> 
+							</div> 
+						</div> 
+					</div> 
+				</div> 
+			</div>
+		</div>
+
+		<div class="product-card-parsys parsys">
+			<div class="tile-container base parbase section">
+				<div class="container" data-comp-id="tile-container">
+					<div class="row wrapper">
+						<div class="product-row">
+							<div class="banner-tile banner2x abstract-banner single base parbase product-row__tile--img-tile box-shadow promotion-tile xk-component xk-section-base triple-promo" data-xk-section="v1">
+								<div class="product-row__tile__img-tile__img" style="background-image: url('https://startprotectingyourfuture.com/AMBMaster/img/RH16-013-Prophet-MetLife-2-0403.png');">
+									<img src="https://startprotectingyourfuture.com/AMBMaster/img/transparent-img.png" alt="Mobile phone user" class="alt-img">
+								</div>
+								<div class="product-row__tile--img-tile__text" ng-include="'templates/apply_now_tile_text.html'"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="disclaimer base parbase">
+			<div class="container disclaimer" data-comp-id="disclaimer">
+				<div class="row wrapper">
+					<p>1. If medical questions are answered unfavorably, then full underwriting may be required and coverage is subject to approval of insurer. Please refer to Plan Summary for full eligibility requirements.</p>
+					<p>2. You must be <span class="variable-value">{{boe_footnote2_text}}</span> for coverage to become effective. Please refer to Plan Summary for full eligibility requirements.</p>
+					<div ng-include="'templates/disclaimer.html'"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container bg-gray-1st global-footer" ng-include="'templates/footer.html'"></div>
+	</div>
+
+	<script type="text/javascript" src="https://startprotectingyourfuture.com/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/global.js"></script>
+	<script src="js/boe.js"></script>
+	
+</body>
+</html>
